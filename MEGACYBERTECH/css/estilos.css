@@ -1,0 +1,170 @@
+/* Estilos para la barra de navegación */
+nav {
+  background-color: #000000;
+  padding: 65px;
+  overflow: hidden;
+  position: fixed; /* Fija la barra en la parte superior */
+  top: 0; /* Fija la barra en la parte superior */
+  left: 0; /* Fija la barra en la parte izquierda */
+  width: 95%; /* Ajusta el ancho al 100% del viewport */
+  z-index: 999; /* Asegura que la barra esté por encima del contenido */
+}
+
+/* Estilos para los botones de navegación */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-right: 45px;
+  background-color: #000000;
+  border-radius: 35px;
+  font-weight: bold;
+}
+
+/* Estilos para resaltar los botones al pasar el puntero del mouse */
+nav a:hover {
+  background-color: #fff;
+  color: #000000;
+  font-weight: bold;
+  padding: 9px 45px;
+}
+
+
+/* Estilos para separar y alinear los botones a la derecha */
+.nav_megcytech {
+  float: right;
+}
+
+/* Estilos adicionales para la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el contenido de la página */
+.contenedor_main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.corner-image {
+  position: fixed;
+  top: -7px; /* Ajusta la posición vertical de la imagen en la esquina */
+  left: 20px; /* Ajusta la posición horizontal de la imagen en la esquina */
+  width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: 155px; /* Ajusta la altura de la imagen según tus necesidades */
+  z-index: 999; /* Asegura que la imagen esté por encima del contenido */
+}
+
+.corner-image-2 {
+  position: fixed;
+  top: 10%; /* Mueve la imagen hacia abajo */
+  transform: translateY(-50%); /* Ajusta el centro verticalmente */
+  left: 0;
+  width: 100%;
+  height: 105%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.corner-image-3{
+  position: fixed;
+  top: 92.1%; /* Mueve la imagen hacia abajo */
+  transform: translateY(-25%); /* Ajusta el centro verticalmente */
+  left: 0;
+  width: 101%;
+  height: 121%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+.corner-image-4 {
+  position: fixed; /* Fija la posición de la imagen */
+  top: 59%; /* Ajusta la posición vertical de la imagen */
+  left: 50%; /* Ajusta la posición horizontal de la imagen */
+  transform: translate(-50%, -50%); /* Centra la imagen horizontal y verticalmente */
+  width: 790px; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: 325px; /* Ajusta la altura de la imagen según tus necesidades */
+  z-index: 999; /* Asegura que la imagen esté por encima del contenido */
+}
+
+
+.contenedor_main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-y: scroll; /* Agrega una barra de desplazamiento vertical */
+  height: 400px; /* Establece la altura máxima del contenedor para que aparezca la barra de desplazamiento */
+}
+
+/* Estilos para el contenido de la página */
+.contenedor_main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.titulo {
+  font-family: 'Ablation Extra Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 84%;
+  transform: translateY(-50%);
+}
+
+.titulo-2 {
+  font-family: 'Ablation Extra Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 89%;
+  transform: translateY(-50%);
+}
+
+@font-face {
+  font-family: 'Ablation Extra Bold';
+  src: url('../fonts/Ablation Extra Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.linea {
+  width: 900px; /* Ajusta la longitud de la línea */
+  height: 2px; /* Ajusta el grosor de la línea */
+  background-color: #5ce1e6; /* Establece el color de la línea */
+  border: none; /* Elimina el borde de la línea */
+  position: fixed; /* Fija la posición de la línea */
+  top: 94%; /* Ajusta la posición vertical inicial de la línea */
+  left: 50%; /* Ajusta la posición horizontal inicial de la línea */
+  transform: translate(-50%, -50%); /* Centra la línea horizontal y verticalmente */
+  z-index: 999; /* Asegura que la línea esté por encima del contenido */
+}
+
+
+.linea-2 {
+  width: 790px; /* Ajusta la longitud de la línea */
+  height: 2px; /* Ajusta el grosor de la línea */
+  background-color: #5ce1e6; /* Establece el color de la línea */
+  border: none; /* Elimina el borde de la línea */
+  position: fixed; /* Fija la posición de la línea */
+  top: 81%; /* Ajusta la posición vertical inicial de la línea */
+  left: 50%; /* Ajusta la posición horizontal inicial de la línea */
+  transform: translate(-50%, -50%); /* Centra la línea horizontal y verticalmente */
+  z-index: 999; /* Asegura que la línea esté por encima del contenido */
+}
+
+
